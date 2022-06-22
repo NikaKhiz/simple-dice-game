@@ -1,0 +1,62 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.playground {
+  height: 700px;
+  background-color: mediumseagreen;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.playground .title {
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: purple;
+}
+.playground .winners {
+  font-size: 1.5rem;
+  color: blueviolet;
+  text-transform: capitalize;
+}
+.playground .players {
+  display: flex;
+  text-align: center;
+  font-size: 1.2rem;
+  color: magenta;
+  text-transform: uppercase;
+  gap: 1rem;
+}
+.playground .players > * {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.playground .players > * > :nth-child(2) {
+  border: 2px solid white;
+  box-shadow: 0 0 10px white;
+  border-radius: 9px;
+  padding: 0.1rem;
+}
+.playground .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.playground .buttons > * {
+  padding: 9px 29px;
+  border-radius: 9px;
+  text-transform: cap;
+  border: 1px solid slateblue;
+  background: steelblue;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
